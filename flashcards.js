@@ -36,7 +36,7 @@ function getRandomCard() {
 	document.getElementsByClassName("card-reveal")[0].addEventListener("click", showTranslation);
 	document.getElementsByClassName("card-translation")[0].style.display = "none";
 
-	var url = "https://s.cdpn.io/2652102/jp-verbs.json";
+	var url = "flashcards.json";
 
 	var xmlhttp = new XMLHttpRequest();
 	
